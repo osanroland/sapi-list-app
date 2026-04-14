@@ -13,8 +13,8 @@
 * Az API doksit átolvastam, de SAPI Robival is beszélgettem hogy 100% legyek a kérésekben.
 
 ### Mi az, amit ha újra csinálnád, másképp csinálnál?
- * Így első gondolatra nem csinálnám máshogy, mármint a projekt megoldását. 
- * A promptolásra jobban odafigyelnék, hogy AI-nak jobban értelmezhető legyen, de így is mindent értett. 
+ * A 60 percbe nem fért bele a tervezés és megvalósítás, még úgy sem hogy sok kódolást az AI végzett. Ha bele kéne férni, akkor bevonnám jobban a tervezésben, odaadnám az API doksit, elmondanám high levelbe hogy képzelem, bizonyos részeket hogyan oldanék meg és oda adnám egybe, hogy ezzel gyorsítsak. 
+ * A promptolást is AI friendlybben csinálnám, angolul mert úgy okosabb. 
 ### Extra:
  * A listák létrehozási dátuma nem szerepelt az API válaszban. Az appon belül a mezőknél be lehetett pipálni egy első módosítás dátuma mezőt, de azt úgy értelmeztem hogy az a feliratkozókra vonatkozik.
  * A rendezés és szűrésre lehetett volna mindig API kérést indítani mert van rá lehetőség, de akkor más más adat jönne vissza mondjuk több 100 feliratkozónál, ezért ezt el akartma kerülni. 
