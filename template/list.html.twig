@@ -1,0 +1,12 @@
+{% extends 'layout/base.html.twig' %}
+
+{% block content %}
+<ul class="list-group">
+    {% for list in lists %}
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span>{{ list.name }} <span class="badge bg-secondary">{{ list.subscribersCount }} subscribers</span></span>
+            <a href="/list/{{ list.id }}/subscribers" class="btn btn-primary btn-sm">Kiválaszt</a>
+        </li>
+    {% endfor %}
+</ul>
+{% endblock %}

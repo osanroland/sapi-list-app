@@ -1,6 +1,10 @@
 {
     "name": "app/app",
-    "require": {},
+    "require": {
+        "twig/twig": "*",
+        "vlucas/phpdotenv": "*",
+        "guzzlehttp/guzzle": "*"
+    },
     "autoload": {
         "psr-4": {
             "App\\": "src/"
